@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Personal Portfolio - Easy Tutorials</title>
+    <link rel="stylesheet" href="port.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="ravi"> <span style="color: #ff004f;"> P. </span>Portfolio.</h1>
+                <!-- 
+               <img src="logo.jpg" style="width: 150px;"  class="logo">  -->
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-xmark" onclick="Closemenu"></i>  -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i>  -->
+            </nav>
+
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Ravi Kumar</span><br>From Bihar</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------------------------------about ---------------------------------------------------------->
+
+
+    <div id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="rrk.jpg" alt="">
+                </div>
+
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and dedicated Web Developer currently pursuing a Bachelor of Technology
+                        (B.Tech) in Computer Science.
+                        I enjoy solving complex problems, building responsive websites, and constantly learning new
+                        technologies.
+                        I am committed to delivering high-quality, user-focused solutions with creativity and precision.
+                    </p>
+
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>HTML, CSS, JavaScript, React.js</li>
+                            <li><span>Backend Development</span><br>Node.js, Express.js, API Integration</li>
+                            <li><span>Database Management</span><br>MySQL, MongoDB</li>
+                            <li><span>Version Control</span><br>Git, GitHub</li>
+                            <li><span>Responsive Design</span><br>Building Mobile-Friendly Websites</li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present</span><br>B.Tech in Computer Science Engineering<br>The Glocal
+                                University Saharanpur, Uttar-Pradesh</li>
+                            <li><span>2020</span><br>Completed 12th From - Intermediate College Amarpur, Lakhisarai</li>
+                            <li><span>2018</span><br>Completed 10th From - Kumar Ramanand Smarak High School Dharhara,
+                                Munger</li>
+
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+
+
+                <!------------------------------------------------------------------------ Services ---------------------------------------------------------------------------------->
+
+                <div id="services">
+                    <div class="services">
+                        <div class="container">
+                            <h1 class="sub-title" style="margin-left: 150px;">My services</h1>
+                            <div class="services-list">
+                                <div>
+                                    <i class="fa-solid fa-code"></i>
+                                    <h2>Web Development</h2>
+                                    <p>These services include designing the look of the website,
+                                        building and coding it, adding content, optimizing it for
+                                        search engines, hosting it on a server, and keeping it up-to-date and secure.
+                                    </p>
+
+                                    <a href="#">Learn More</a>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-crop-simple"></i>
+                                    <h2>UX/UI design</h2>
+                                    <p>These services include designing the look of the website,
+                                        building and coding it, adding content, optimizing it for
+                                        search engines, hosting it on a server, and keeping it up-to-date and secure.
+                                    </p>
+
+                                    <a href="#">Learn More</a>
+                                </div>
+
+                                <div>
+                                    <i class="fa-brands fa-app-store"></i>
+                                    <h2>App Design</h2>
+                                    <p>These services include designing the look of the website,
+                                        building and coding it, adding content, optimizing it for
+                                        search engines, hosting it on a server, and keeping it up-to-date and secure.
+                                    </p>
+
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------------- Portfolio ------------------------------------------------------------------------------------>
+
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="03.avif" alt="">
+                            <div class="layer">
+                                <h3>Social Media App</h3>
+                                <p>The app connects you yo the talented people around the wrld.
+                                    Download it form play store.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="02.avif" alt="">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>Social media refers to online platforms and websites designed for users to create,
+                                    share and
+                                    interact with content, messages and information.</p>
+
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="01.avif" alt="">
+                            <div class="layer">
+                                <h3>Online shopping App</h3>
+                                <p>Social media refers to online platforms and websites designed for users to create,
+                                    share and
+                                    interact with content, messages and information.</p>
+
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <!--------------------- -------------------------------------------------------------- Contect Us ----------------------------------------------------------------------------->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class=" display">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>Roy228501@gmail.com</p>
+                                <p><i class="fa-solid fa-square-phone"></i>7631****06</p>
+                                <div class="social-icons">
+
+                                    <a href="https://github.com/Gitravi172" target="_blank"><i
+                                            class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.instagram.com/ravi_76633" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/Ravi Kumar" target="_blank"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://wa.me/7631638006" target="_blank"><i
+                                            class="fa-brands fa-whatsapp"></i></a>
+
+                                </div>
+
+                                <a href="cv.png" download class="btn btn2">Download CV</a>
+                            </div>
+
+                            <div class="contact-right">
+                                <form class="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="saved-data" style="margin-top: 20px;">
+                    <div class="user">
+                        <h3 style="font-size: larger; font-weight: 600;color: red;">My User</h3>
+                        <div class="name">
+                            <p><strong style="color:#ff004f;">Name:</strong> <span id="saved-name"></span></p>
+                        </div>
+                        <div class="name">
+                            <p><strong style="color:#ff004f;">Email:</strong> <span id="saved-email"></span></p>
+                        </div>
+                        <div class="message">
+                            <p><strong style="color:#ff004f;">Message:</strong> <span id="saved-message"></span></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright @ Ravi with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+                </div>
+            </div>
+
+
+            <script src="index.js"></script>
+
+
+</body>
+
+</html>
